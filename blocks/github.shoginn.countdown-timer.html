@@ -35,7 +35,7 @@
       finalDate = $(this).data("countdown");
     $this.countdown(finalDate, function (event) {
       $this.html(
-        event.strftime(`<div class="text-center">%D Days %H:%M:%S</div>`)
+        event.strftime(`<div class="text-center">%D Days %H:%M:%S</div>`),
       );
     });
   });
